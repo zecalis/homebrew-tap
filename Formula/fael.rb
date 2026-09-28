@@ -1,25 +1,25 @@
 class Fael < Formula
   desc "fael CLI — a repo's memory that agents can't skip writing"
   homepage "https://github.com/zecalis/fael"
-  version "0.7.0"
+  version "0.8.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/zecalis/fael/releases/download/v0.7.0/fael-aarch64-apple-darwin.tar.xz"
-      sha256 "c2a1645140db0b8b823cc91c2205a9bd9120ac0ca74256168c26ba0be2363e5d"
+      url "https://github.com/zecalis/fael/releases/download/v0.8.0/fael-aarch64-apple-darwin.tar.xz"
+      sha256 "6ea5095a0763ad3f1026bc6b2e78906cc74c31ec8d565afc7ea49cbef47cbeea"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zecalis/fael/releases/download/v0.7.0/fael-x86_64-apple-darwin.tar.xz"
-      sha256 "7f8347c5efa9d21f22e7a109045a9577d21da6d3559afc3cf797bf184ffc7e51"
+      url "https://github.com/zecalis/fael/releases/download/v0.8.0/fael-x86_64-apple-darwin.tar.xz"
+      sha256 "7e9e1027ff91c17c1f319490f02573d57a57b35ecabceb1abd8882eb1cb7d46e"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/zecalis/fael/releases/download/v0.7.0/fael-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "85519c408c02fef62ebd47ee1d0223241eb669ce3dd7b1a1f9342e0f15117e96"
+      url "https://github.com/zecalis/fael/releases/download/v0.8.0/fael-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "dd43a2acc4d1956f3e348b0b86cd4b383955b4f0910adf8d22192c9c99a7e618"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/zecalis/fael/releases/download/v0.7.0/fael-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "b246f2edd67a49586eac268b542d1809f5ff88c6d34e90f610fc77320d6c7f1e"
+      url "https://github.com/zecalis/fael/releases/download/v0.8.0/fael-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "073a48527408b491cb300be953f2dfda6fa4ffeb4bb92e4a7aab66373cb62fde"
     end
   end
   license "MIT"
